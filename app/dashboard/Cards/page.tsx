@@ -32,7 +32,7 @@ const Card1 = () => {
         <>
             <div className="flex flex-col items-center justify-center h-full w-full p-20">
                 <div className="flex flex-col bg-gray-200 h-auto w-80 gap-4 p-8 rounded-lg shadow-md">
-                    <h1 className="font-bold text-center text-3xl">Form</h1>
+                    <h1 className="font-bold text-center text-3xl">Form123</h1>
                     <label>First Name</label>
                     <input type="text" placeholder="First Name" className="p-2 rounded-lg" name="firstName" value={detail?.firstName} onChange={handleChange}/>
                     <label>Last Name</label>
